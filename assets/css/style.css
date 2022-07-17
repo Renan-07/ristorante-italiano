@@ -72,3 +72,12 @@ video {
     font-family: "Felipa", serif;
     color: white;
 }
+
+/* About Us */
+
+#about-us {
+    height: 400px;
+    background: url(../images/pizzaiolo.jpg) no-repeat center center;
+    background-color: orange;
+    
+}
