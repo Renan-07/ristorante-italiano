@@ -69,15 +69,39 @@ video {
 
 #hero-wrapper p {
     font-size: x-large;
-    font-family: "Felipa", serif;
+    font-family: Felipa, serif;
     color: white;
 }
 
 /* About Us */
 
-#about-us {
-    height: 400px;
-    background: url(../images/pizzaiolo.jpg) no-repeat center center;
-    background-color: orange;
+.about-container {
+    height: 500px;
+    width: 100%;
+    background-color: #BA8C63; 
+    display: flex;
+    align-items: center;
+}
+
+.about-item-1 {
+    text-align: center;
+}
+
+.about-item h2 {
+    font-family: Cinzel, sans-serif;
+    font-size: xx-large;
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+
+.about-item p {
     
+    font-family: Felipa, sans-serif;
+    font-size: 1.4em;
+}
+
+.about-item-2 {
+    justify-content: right;
+    height: 500px;
+    width: 40%;
 }
