@@ -35,7 +35,7 @@ h1 {
 
 nav li {
     display: inline;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 nav a {
@@ -47,7 +47,7 @@ nav a {
 
 video {
     object-fit: cover;
-    position: absolute;  
+    position: absolute;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -82,11 +82,21 @@ video {
 /* About Us */
 
 .about-container {
-    height: 500px;
     width: 100%;
-    background-color: #BA8C63; 
+    background-color: #BA8C63;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.about-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 20em;
 }
 
 .about-item-1 {
@@ -98,12 +108,10 @@ video {
 .about-item h2 {
     font-family: Cinzel, sans-serif;
     font-size: xx-large;
-    margin-top: -50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .about-item p {
-    
     font-family: Felipa, sans-serif;
     font-size: 1.4em;
 }
@@ -113,15 +121,29 @@ video {
     justify-content: right;
     height: 500px;
     width: 40%;
+    object-fit: fill;
 }
 
 /* Info Section */
 
 .info-container {
-    height: 500px;
+    height: 300px;
     width: 100%;
-    background-color: #d4ad8a; 
+    background-color: #d4ad8a;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+}
+
+.info-item-1,
+.info-item-2 {
+    flex-basis: 33%;
+    border: 1px solid;
+}
+
+.contact-wrapper {
+    flex-direction: column;
+    border: 1px solid;
 }
