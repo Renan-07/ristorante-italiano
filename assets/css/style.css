@@ -22,6 +22,7 @@ h1 {
     font-family: Cinzel;
     margin-top: 10px;
     font-size: 3em;
+    color: #2b2929;
 }
 
 #lang-choice {
@@ -103,6 +104,7 @@ video {
 }
 
 .about-item-2 {
+    border-left: 2px solid;
     justify-content: right;
     height: 500px;
     width: 40%;
@@ -110,3 +112,10 @@ video {
 
 /* Info Section */
 
+.info-container {
+    height: 500px;
+    width: 100%;
+    background-color: #d4ad8a; 
+    display: flex;
+    align-items: center;
+}
