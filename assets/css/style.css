@@ -19,11 +19,13 @@ nav {
 }
 
 h1 {
+    font-family: Cinzel;
     margin-top: 10px;
     font-size: 3em;
 }
 
 #lang-choice {
+    font-family: Cinzel;
     text-align: right;
     margin-bottom: 10px;
     margin-right: 50px;
@@ -105,3 +107,6 @@ video {
     height: 500px;
     width: 40%;
 }
+
+/* Info Section */
+
