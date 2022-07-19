@@ -138,7 +138,7 @@ video {
 /* Info Section */
 
 .info-container {
-    height: 250px;
+    height: 265px;
     width: 100%;
     background-color: #d4ad8a;
     display: flex;
@@ -175,6 +175,15 @@ video {
     text-align: center;
     border-right: 1px solid;
     border-left: 1px solid;
+}
+
+.info-item-2 h3 {
+    margin-top: 25px;
+}
+
+.info-item-2 p {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .contact-wrapper {
