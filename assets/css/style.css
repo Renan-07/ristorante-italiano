@@ -127,12 +127,12 @@ video {
 /* Info Section */
 
 .info-container {
-    height: 300px;
+    height: 250px;
     width: 100%;
     background-color: #d4ad8a;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     flex-basis: 33%;
 }
@@ -141,6 +141,11 @@ video {
 .info-item-2 {
     flex-basis: 33%;
     border: 1px solid;
+}
+
+.info-item-1 {
+    height: 100%;
+    align-items: center;
 }
 
 .contact-wrapper {
