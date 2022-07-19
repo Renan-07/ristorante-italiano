@@ -43,6 +43,11 @@ a {
     color: #2b2929;
 }
 
+nav a:hover {
+    border-left: double;
+    border-bottom: double;
+}
+
 /* Hero Video */
 
 video {
