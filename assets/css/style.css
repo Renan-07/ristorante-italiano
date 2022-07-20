@@ -170,11 +170,6 @@ video {
     margin-bottom: 5px;
 }
 
-table {
-    font-family: Cinzel;
-    font-size: small;
-}
-
 .info-item-1 {
     height: 100%;
     justify-content: center;
@@ -192,6 +187,10 @@ table {
 
 /* For Opening Times Table */
 
+table {
+    font-family: Cinzel, sans-serif;
+    font-size: small;
+}
 
 
 
