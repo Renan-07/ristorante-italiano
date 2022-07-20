@@ -188,10 +188,26 @@ video {
 /* For Opening Times Table */
 
 table {
-    font-family: Cinzel, sans-serif;
-    font-size: small;
+    border-collapse: collapse;
 }
 
+th, td {
+    font-family: Cinzel, sans-serif;
+    font-size: small;
+    border-bottom: 1px solid black;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: aliceblue;
+}
 
 
 /* Map Section  */
