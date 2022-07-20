@@ -88,7 +88,7 @@ video {
 
 .about-container {
     width: 100%;
-    background-color: #BA8C63;
+    background-color: #d4ad8a;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,6 +136,7 @@ video {
 
 .info-container {
     width: 100%;
+    position: relative;
     background-color: #d4ad8a;
     display: flex;
     align-items: center;
@@ -144,7 +145,19 @@ video {
     flex-basis: 33%;
 }
 
+.info-container::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: url(../images/wood3.jpg) center center / cover no-repeat fixed;
+    opacity: 1;
+}
+
 .info-item {
+    position: relative;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -199,6 +212,7 @@ th, td {
 
 th {
     text-align: left;
+    padding-right: 5px;
 }
 
 td {
@@ -231,4 +245,5 @@ footer {
 
 footer p {
     text-align: center;
+    padding-top: 75px;
 }
