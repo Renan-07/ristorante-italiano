@@ -159,9 +159,9 @@ video {
     font-family: Felipa;
 }
 
-.info-item-1,
-.info-item-2 {
-    flex-basis: 33%;
+table {
+    font-family: Cinzel;
+    font-size: small;
 }
 
 .info-item-1 {
@@ -173,11 +173,18 @@ video {
 
 .info-item-2 {
     text-align: center;
-    border-right: 1px solid;
-    border-left: 1px solid;
+    border-right: 3px double;
+    border-left: 3px double;
+    padding-left: 35px;
+    padding-right: 35px;
+
 }
 
 .info-item-2 h3 {
+    margin-top: 25px;
+}
+
+.info-item-3 h3 {
     margin-top: 25px;
 }
 
@@ -186,9 +193,21 @@ video {
     margin-bottom: 25px;
 }
 
-.contact-wrapper {
-    flex-direction: column;
+.info-item-3 p {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
+
+/* Map Section  */
+
+#map-container {
+    height: 250px;
+    width: 100%;
+}
+
+#map-item {
+    height: 100%;
+}
 
 /* Footer Section */
