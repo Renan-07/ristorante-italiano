@@ -10,10 +10,11 @@
 /* Header */
 
 header {
+    height: 125px;
     background-color: #BA8C63;
 }
 
-nav {
+#h-div {
     display: inline;
     text-align: center;
 }
@@ -33,7 +34,7 @@ h1 {
     word-spacing: 25px;
 }
 
-nav li {
+#h-div li {
     display: inline;
     font-size: 1.3em;
 }
@@ -43,7 +44,7 @@ a {
     color: #2b2929;
 }
 
-nav a:hover {
+#h-div a:hover {
     border-left: double;
     border-bottom: double;
 }
