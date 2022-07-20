@@ -211,3 +211,13 @@ table {
 }
 
 /* Footer Section */
+
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: #BA8C63;
+}
+
+footer p {
+    text-align: center;
+}
