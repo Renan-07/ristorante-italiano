@@ -205,8 +205,8 @@ td {
     text-align: center;
 }
 
-tr:hover {
-    background-color: aliceblue;
+.days-rows:hover {
+    background-color: #f4caa9;
 }
 
 
