@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Caffè 500</title>
+</head>
+
+<body>
+    <header style="border:1px solid">
+        <div id="h-div">
+            <h1 id="logo">Caffè 500</h1>
+            <ul id="lang-choice">
+                <li><a href="index.html">Inglese</a></li>
+                <li><a href="index-it.html">Italiano</a></li>
+            </ul>
+        </div>
+    </header>
+    <nav>
+        <ul id="nav-container">
+            <li class="nav-item"><a href="index-it.html" class="nav-link">Homepage</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Menù</a></li>
+            <li class="nav-item"><a href="reservation-it.html" class="nav-link">Prenotazioni</a></li>
+            <li class="nav-item"><a href="#map-item" class="nav-link">Localizzazione</a></li>
+        </ul>
+    </nav>
+    <section class="reservation-container">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="reservation-form">
+            <h2>Prenota un tavolo con noi!</h2>
+            <label for="name">Nome di battesimo</label>
+            <input  type="text" id="name" name="name"required class="details-input">
+
+            <label for="email">Indirizzo e-mail</label>
+            <input type="email" id="email" name="email_address" required class="details-input">
+
+            <label for="phone">Numero di telefono</label>
+            <input type="tel" id="phone" name="phone_number" required class="details-input">
+
+            <label for="number">Numero di persone</label>
+            <input type="number" id="number" name="number_people" min="1" required class="details-input">
+
+            <label for="message">Fateci sapere di eventuali preferenze o richieste particolari</label>
+            <input type="text" id="message" name="message" class="details-input">
+
+            <input type="submit" value="Prenota il tuo tavolo" class="book-button">
+        </form>
+    </section>
+    <footer id="footer-container" style="border:1px solid">
+        <h4 class="footer-item footer-item-1">Trovaci su:</h4>
+        <p class="footer-item footer-item-2">
+            <a href="https://www.facebook.com/caffe500carlow/" target="_blank"
+                aria-label="Visit our facebookpage (opens in a new tab)" rel="noopener">Facebook, </a>
+            <a href="https://www.instagram.com/caffe500_carlow/" target="_blank"
+                aria-label="Visit our instagram page (opens in a new tab)" rel="noopener"> Instagram </a>
+            e
+            <a href="https://www.tripadvisor.ie/Restaurant_Review-g199125-d12500911-Reviews-Caffe_500-Carlow_County_Carlow.html"
+                target="_blank" aria-label="Visit our tripadvisor page (opens in a new tab)" rel="noopener">
+                Tripadvisor</a>
+        </p>
+        <p class="footer-item footer-item-3">COPYRIGHT © Caffè 500</p>
+        </ul>
+    </footer>
+</body>
+
+</html>
