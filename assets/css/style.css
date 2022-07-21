@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Felipa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Felipa&family=Italianno&display=swap');
 
 * {
     box-sizing: border-box;
@@ -20,10 +20,11 @@ header {
 }
 
 h1 {
-    font-family: Cinzel;
+    font-family: Italianno;
     margin-top: 10px;
-    font-size: 3em;
+    font-size: 4em;
     color: #2b2929;
+    font-weight: 500;
 }
 
 #lang-choice {
