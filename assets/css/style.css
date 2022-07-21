@@ -12,6 +12,7 @@
 header {
     height: 125px;
     background-color: #BA8C63;
+    border-bottom: none;
 }
 
 #h-div {
@@ -48,6 +49,39 @@ a {
     border-left: double;
     border-bottom: double;
 }
+
+
+/* Nav */
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #BA8C63;
+    height: 50px;
+    font-family: Cinzel, sans-serif;
+    font-weight: lighter;
+    border-top: none;
+}
+
+#nav-list {
+    display: flex;
+}
+
+.nav-item {
+    display: flex;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.nav-item a:hover {
+    font-size: larger;
+    border-top: double;
+    border-bottom: double;
+    color: #000000;
+}
+
 
 /* Hero Video */
 
