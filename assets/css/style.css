@@ -158,6 +158,18 @@ video {
     text-align: center;
 }
 
+.about-item-1 #p2 {
+    margin-top: 15px;
+}
+
+.about-item-1 a {
+    border-bottom: 1px solid;
+    color: steelblue;
+}
+.about-item-1 a:hover {
+    color: #000000;
+}
+
 .about-item p {
     font-family: Felipa, sans-serif;
     font-size: 1.4em;
@@ -235,6 +247,19 @@ video {
     padding-left: 35px;
     padding-right: 35px;
 
+}
+
+.info-item-2 a {
+    border-bottom: 1px solid;
+    color: steelblue;
+}
+
+.info-item-2 a:hover {
+    color: #000000;
+}
+
+.info-item-3 p {
+ 
 }
 
 /* For Opening Times Table */
