@@ -196,6 +196,7 @@ video {
     justify-content: space-around;
     flex-wrap: wrap;
     flex-basis: 33%;
+    
 }
 
 .info-container::before {
@@ -415,5 +416,11 @@ input[type=number] {
 .menu-container {
     width: 100%;
     display: flex;
-    
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+
+.menu-item {
+    display: flex;
+    flex: 1 1 50%;
 }
