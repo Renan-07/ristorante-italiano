@@ -423,13 +423,25 @@ input[type=number] {
     flex-wrap: wrap;
 }
 
+.menu-container h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Cinzel, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 2em;
+}
+
 .menu-item {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex: 1 1 100%;
+    flex: 1 1 50%;
     flex-direction: column;
+    text-align: center;
 }
 
 .menu-item h1,
@@ -440,16 +452,9 @@ h2 {
     font-family: Cinzel, sans-serif;
 }
 
-h1 {
-    width: 100%;
-    text-align: center;
-    font-family: Cinzel, sans-serif;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .menu-item h2 {
-    border: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
     background-color: #d4ad8a;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -459,23 +464,39 @@ h1 {
    
 }
 
-/* #drinks h2 {
-    position: static;
-} */
-
 .top-spacer {
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .bottom-spacer {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
-#starters {
-    align-items: flex-start;
-    justify-content: left;
- }
+#desserts {
+    width: 100%;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+}
 
- #starters img {
-    justify-content: right;
- }
+
+
+/* Allergen Section */
+
+#allergen-container {
+    width: 100%;
+    background-color: #d4ad8a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#allergen-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 20em;
+}
