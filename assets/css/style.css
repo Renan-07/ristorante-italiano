@@ -407,10 +407,7 @@ input[type=number] {
 }
 
 .book-button:hover {
-    background-color: #2b2929;
-    color: #DCA39D;
-    border: 1px solid #DCA39D;
-    /* opacity: 0.7; */
+    opacity: 0.7;
 }
 
 /* Menu Page */
