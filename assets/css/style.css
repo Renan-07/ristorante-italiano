@@ -462,7 +462,7 @@ input[type=number] {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
-    align-content: flex-start;
+    align-content: space-evenly;
     flex: 1 1 100%;
 }
 
@@ -477,7 +477,6 @@ input[type=number] {
 
 .item h4 {
     display: inline-block;
-    align-content: space-between;
 }
 
 .item {
@@ -489,16 +488,15 @@ input[type=number] {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
-    left: 25px;
 }
 
 #starters img {
     border: 2px solid;
     height: 400px;
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: stretch;
+    justify-content: right;
 }
 
 #pasta {
@@ -510,11 +508,11 @@ input[type=number] {
 
 #pasta img {
     border: 2px solid;
-    justify-content: left;
     height: 400px;
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
-    align-items: center;
+    align-items: stretch;
+    justify-content: left;
 }
 
 #pizza {
@@ -526,11 +524,11 @@ input[type=number] {
 
 #pizza img {
     border: 2px solid;
-    justify-content: right;
     height: 400px;
-    max-width: 50%;
+    width: 100%;
     object-fit: cover;
     align-items: center;
+    justify-content: right;
 }
 
 #vegetarian {
@@ -542,38 +540,38 @@ input[type=number] {
 
 #vegetarian img {
     border: 2px solid;
-    justify-content: left;
     height: 400px;
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
-    align-items: center;
+    align-items: stretch;
+    justify-content: left;
 }
 
 #desserts img {
     border: 2px solid;
-    justify-content: right;
     height: 400px;
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
-    align-items: center;
+    align-items: stretch;
+    justify-content: right;
 }
 
 #drinks img {
     border: 2px solid;
-    justify-content: left;
     height: 400px;
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
-    align-items: center;
+    align-items: stretch;
+    justify-content: left;
 }
 
 #hot-drinks img {
     border: 2px solid;
-    justify-content: right;
     height: 400px;
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
-    align-items: center;
+    align-items: stretch;
+    justify-content: right;
 }
 
 /* Allergen Section */
