@@ -480,14 +480,8 @@ input[type=number] {
 }
 
 .item {
+    padding-left: 2vw;
     flex: 1 1 30em;
-}
-
-#starters {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: flex-start;
 }
 
 #starters img {
@@ -499,13 +493,6 @@ input[type=number] {
     justify-content: right;
 }
 
-#pasta {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-end;
-}
-
 #pasta img {
     border: 2px solid;
     height: 400px;
@@ -515,13 +502,6 @@ input[type=number] {
     justify-content: left;
 }
 
-#pizza {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-end;
-}
-
 #pizza img {
     border: 2px solid;
     height: 400px;
@@ -529,13 +509,6 @@ input[type=number] {
     object-fit: cover;
     align-items: center;
     justify-content: right;
-}
-
-#vegetarian {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-end;
 }
 
 #vegetarian img {
