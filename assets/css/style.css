@@ -142,7 +142,7 @@ video {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex: 1 1 20em;
+    flex: 1 1 30em;
 }
 
 .about-item h2 {
@@ -179,11 +179,12 @@ video {
 }
 
 .about-item-2 {
-    border-left: 2px solid;
+    border: 2px solid;
     justify-content: right;
     height: 500px;
     width: 40%;
     object-fit: fill;
+    align-items: center;
 }
 
 /* Info Section */
@@ -435,24 +436,15 @@ input[type=number] {
 }
 
 .top-spacer {
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .bottom-spacer {
     margin-bottom: 15px;
 }
 
-.menu-item {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex: 1 1 100%;
-}
-
 .menu-item h2 {
     width: 100%;
-    /* display: inline-block; */
     text-align: center;
     font-family: Cinzel, sans-serif;
     border-top: 1px solid;
@@ -463,6 +455,15 @@ input[type=number] {
     position: sticky;
     top: 0;
     z-index: 2;
+}
+
+.menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex: 1 1 100%;
 }
 
 .inner-container {
@@ -476,16 +477,79 @@ input[type=number] {
 
 .item h4 {
     display: inline-block;
-    text-align: left;
+    align-content: space-between;
 }
 
 .item {
-    padding-left: 25px;
-    padding-right: 25px;
     flex: 1 1 30em;
 }
 
+#starters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    left: 25px;
+}
+
 #starters img {
+    border: 2px solid;
+    height: 400px;
+    max-width: 100%;
+    object-fit: cover;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#pasta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#pasta img {
+    border: 2px solid;
+    justify-content: left;
+    height: 400px;
+    max-width: 100%;
+    object-fit: cover;
+    align-items: center;
+}
+
+#pizza {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#pizza img {
+    border: 2px solid;
+    justify-content: right;
+    height: 400px;
+    max-width: 50%;
+    object-fit: cover;
+    align-items: center;
+}
+
+#vegetarian {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#vegetarian img {
+    border: 2px solid;
+    justify-content: left;
+    height: 400px;
+    max-width: 100%;
+    object-fit: cover;
+    align-items: center;
+}
+
+#desserts img {
     border: 2px solid;
     justify-content: right;
     height: 400px;
@@ -494,6 +558,23 @@ input[type=number] {
     align-items: center;
 }
 
+#drinks img {
+    border: 2px solid;
+    justify-content: left;
+    height: 400px;
+    max-width: 100%;
+    object-fit: cover;
+    align-items: center;
+}
+
+#hot-drinks img {
+    border: 2px solid;
+    justify-content: right;
+    height: 400px;
+    max-width: 100%;
+    object-fit: cover;
+    align-items: center;
+}
 
 /* Allergen Section */
 
