@@ -439,9 +439,8 @@ input[type=number] {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex: 1 1 50%;
+    flex: 1 1 100%;
     flex-direction: column;
-    text-align: center;
 }
 
 .menu-item h1,
@@ -472,12 +471,31 @@ h2 {
     margin-bottom: 25px;
 }
 
-#desserts {
+#item {
+    padding: 1%;
+}
+
+#starters {
     width: 100%;
-    flex: 0 0 100%;
+    background-color: #d4ad8a;
+    display: flex;
     flex-wrap: wrap;
 }
 
+.starters-item {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1 50%;
+}
+
+#starters-item img {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    height: 500px;
+    width: 40%;
+    object-fit: fill;
+}
 
 
 /* Allergen Section */
@@ -498,5 +516,5 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    flex: 1 1 20em;
+    flex: 1 1 10%;
 }
