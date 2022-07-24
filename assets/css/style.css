@@ -439,7 +439,7 @@ input[type=number] {
 }
 
 .bottom-spacer {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .menu-item {
@@ -486,11 +486,12 @@ input[type=number] {
 }
 
 #starters img {
-    border-left: 2px solid;
+    border: 2px solid;
     justify-content: right;
     height: 400px;
-    width: 40%;
+    max-width: 100%;
     object-fit: cover;
+    align-items: center;
 }
 
 
