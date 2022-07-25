@@ -195,7 +195,7 @@ https://www.youtube.com/watch?v=LQsjNmkqUOc
 
 This second source helped me understand and apply ::before to my .info-container, so I could target only the background image.
 
-https://code-institute-org.github.io/love-running-2.0/index.html
+https://code-institute-org.github.io/love-running-2.0/signup.html
 
 I used part of the code from the sign up form from Love Running as inspiration to create my own.
 
