@@ -484,13 +484,14 @@ input[type=number] {
     flex-wrap: wrap;
 }
 
-.item h4, h5 {
+.item h4,
+h5 {
     display: flex;
     flex-direction: row;
 }
 
 .item h5 {
-    text-align:justify;
+    text-align: justify;
     border-bottom: 1px solid;
 }
 
@@ -567,8 +568,9 @@ input[type=number] {
     justify-content: right;
 }
 
-#drinks h4, #hot-drinks h4{
-   border-bottom: 1px solid;
+#drinks h4,
+#hot-drinks h4 {
+    border-bottom: 1px solid;
 }
 
 /* Allergen Section */
