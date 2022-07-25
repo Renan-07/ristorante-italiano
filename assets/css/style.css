@@ -312,7 +312,6 @@ td {
 /* Footer Section */
 
 footer {
-    /* height: 150px; */
     width: 100%;
     background-color: #BA8C63;
     display: flex;
@@ -433,7 +432,7 @@ input[type=number] {
     flex-wrap: wrap;
 }
 
-.menu-container h1 {
+#menu-h {
     width: 100%;
     text-align: center;
     font-family: Cinzel, sans-serif;
@@ -474,7 +473,6 @@ input[type=number] {
     justify-content: flex-start;
     align-content: space-evenly;
     flex: 1 1 100%;
-    /* background: url(../images/wood2.jpg); */
 }
 
 .inner-container {
