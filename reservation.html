@@ -29,10 +29,11 @@
             <li class="nav-item"><a href="index.html#map-item" class="nav-link">Location</a></li>
         </ul>
     </nav>
+    <!-- form section for booking tables -->
     <section class="reservation-container">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="reservation-form">
             <h2>Book a table with us!</h2>
-            <label for="name">First Name</label>
+            <label for="name">Full Name</label>
             <input  type="text" id="name" name="name" required class="details-input">
 
             <label for="email">Email Address</label>
@@ -43,6 +44,9 @@
 
             <label for="number">Number of Guests</label>
             <input type="number" id="number" name="number_people" min="1" required class="details-input">
+
+            <label for="date">Choose a Date</label>
+            <input type="datetime-local" id="date" name="booking_date" required class="details-input">
 
             <label for="message">Let us know of any preferences or especial requests</label>
             <input type="text" id="message" name="message" class="details-input">
