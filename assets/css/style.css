@@ -79,14 +79,21 @@ nav {
     flex: 1 1 10%;
     padding-left: 75px;
     padding-right: 75px;
+    line-height: 22px;
+}
+
+.nav-item a {
+    border-top: double transparent;
+    border-bottom: double transparent;
+    vertical-align: middle;
 }
 
 .nav-item a:hover {
     display: flex;
-    font-size: large;
     border-top: double;
     border-bottom: double;
     color: #000000;
+    transform: scale(1.2);
 }
 
 /* Hero Video */
