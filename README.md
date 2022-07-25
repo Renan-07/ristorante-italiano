@@ -153,7 +153,7 @@ This anchor elements bring the user straight to the map section of the homepage,
 
 <br>
 
-Once the website was uploaded I came across some minor errors that were easy to fix. This errors included:
+Once the website was deployed I used the W3C Validator Services to check for errors and came across some minor errors that were easy to fix. This errors included:
 
 Percentage set within the iframe element to define width and height. Despite making the map work as intended by me, corrected that by displaying the width and height withing a style property.
 
@@ -165,6 +165,9 @@ Sections without h2-h6. The recomendation was to substitute the sections by divs
 
 And, the biggest error I came across, and I noticed as soon as I deployed the website, was the starters image not displaying. After a while, I discovered that I had the image source coded as "/assets/images/starter.jpg" instead of "assets/images/starter.jpg". Removing the first / resolved the error.
 
+As of this moment, there are no more errors in the code. 
+
+
 ## Extra:
 
 There were some things that the testing tools did not notice, and I only noticed them after slowly proof reading every code block. Afterwards I had:
@@ -174,3 +177,25 @@ A few typos corrected.
 Commented out code deleted.
 
 A br added to between two dished, therfore, correcting the presentation of these two items.
+
+
+# Deployment
+
+Once I was in my repository page, accessed settings and scrolled down to the Pages option. There, I selected "main" as my branch.
+
+Here is the link to my deployed website: https://renan-07.github.io/ristorante-italiano/
+
+# Credits
+
+https://alvarotrigo.com/blog/background-video-css/
+
+I used this first source to help me with my hero video
+
+https://www.youtube.com/watch?v=LQsjNmkqUOc
+
+This second source helped me understand and apply ::before to my .info-container, so I could target only the background image.
+
+https://code-institute-org.github.io/love-running-2.0/index.html
+
+I used part of the code from the sign up form from Love Running as inspiration to create my own.
+
